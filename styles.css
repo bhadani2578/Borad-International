@@ -1,0 +1,290 @@
+
+body 
+{font-family: "Lato", sans-serif}
+.mySlides {display: none}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  
+}
+
+.container {
+  width: 100%;
+}
+
+.container img {
+width: 100%;
+height: 100;
+/* margin-top: 100  px; */
+margin-left: 0px;}
+
+
+ .content {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 500px;
+  /* margin-right: auto; */
+}
+.small-content{
+    margin-top: 100px;
+    font-family: "copperplate", fantasy;
+}
+
+/* .img img{
+  text-align: center;
+  position: absolute;
+} */
+.carousel .item {
+  height: 500px;
+
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.btn btn-info{
+    box-align: center;
+}
+.footer{
+    font-size: 40px;
+    height: 200px;
+    /* margin-top: 100px; */
+    text-align: center;
+    background-color: silver;
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
+}
+.footer p{
+    font-size:14px;
+}
+.footer .data
+{
+    padding-top: 60px;
+}
+.hr
+{
+    color: silver;
+    border: 0;
+    border-top: none;
+}
+.page .title
+{
+    width: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: sandybrown;
+}
+.r
+{
+  margin-top: 100px;
+  color: red;
+  font-size: 10px;
+}
+.row{
+    margin-right: 15px; 
+    margin-left: 0px;
+  
+}
+.column{
+  margin-top: 100px;
+  box-sizing: border-box;
+  font-weight: 300;
+  
+}
+.row .column img
+{
+  float: left;
+  width: 40%;
+  margin-left: 1px;
+  padding-right: 10px;
+  max-height: min-content;
+  height: 400px;
+}
+.column h2
+{
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+.row .column p{
+  margin-left: 15px;
+}
+.email img, .phone img, .address img {
+  width: 80px;
+}
+.wrap_contact{
+  display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+.email{
+     padding: 40px 30px 10px;
+    text-align: center;
+    -webkit-box-shadow: var(--ltn__box-shadow-2);
+    box-shadow: var(--ltn__box-shadow-2);
+    margin-bottom: 30px;
+}
+.phone{
+   
+     padding: 40px 20% 10px;
+    text-align: center;
+    -webkit-box-shadow: var(--ltn__box-shadow-2);
+    box-shadow: var(--ltn__box-shadow-2);
+    margin-bottom: 30px;
+
+}
+.address{
+     padding: 40px 0% 10px;
+    text-align: center;
+    -webkit-box-shadow: var(--ltn__box-shadow-2);
+    box-shadow: var(--ltn__box-shadow-2);
+    margin-bottom: 10%;
+}
+.small-content {
+  display: flex;
+}
+.small-content img{
+
+margin : -30px 0px 20px 20px;
+}
+.small-content h1{
+  padding-left: 30%;
+ color:#4d94ff;
+ font-size: 53px;
+ margin-top: 0px;
+}
+.img_img, .video, .fssai_img, .rex_img{
+  padding-bottom: 11.6%;
+}
+.img_img p, .video p, .fssai_img p, .rex_img p{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 40px;
+  color: #4d94ff;
+}
+
+/******about us page**********/
+.about_cnt, .team_cnt, .vison_cnt, .mission_cnt, .infra_cnt, .research p, .package p, .warehouse p, .qua_cnt, .why_cnt{
+
+  margin: 2% 6% 20px 6%;
+  letter-spacing: 1px;
+  font-size: medium;
+}
+.strategy{
+  margin: 2% 6% 20px 6%;
+  font-size: medium;
+}
+.strategy span{
+  font-size: 25px;
+  color: #4d94ff;
+}
+.strategy ol{
+  counter-reset: li;
+  list-style: none;
+}
+.strategy li{
+  margin-left: 20px;
+}
+.strategy li::before {content: counter(li); color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  counter-increment: li;
+}
+.team_cnt{
+  padding-bottom: 7%;
+}
+.mission{
+  padding-bottom: 2%;
+}
+.qua_cnt{
+  margin-top: 5%;
+}
+.quality{
+  margin: 12% 0px 11.5% 0px;
+}
+.clientele{
+  margin: 12% 0px 11.5% 0px;
+}
+.why_cnt{
+font-size: 20px;
+}
+.product, .pack, .vendor, .service{
+  text-align: left;
+  margin: 2% 6% 20px 6%;
+  letter-spacing: 1px;
+}
+.competitive, .time, .flexibility, .client{
+  text-align: right;
+  margin: 2% 6% 20px 6%;
+  letter-spacing: 1px;
+}
+.product h2, .pack h2, .vendor h2, .service h2, .competitive h2, .time h2, .flexibility h2, .client h2{
+  font-size: 25px;
+  color: #4d94ff;
+}
+
+
+@media screen and (max-width: 640px) {
+  
+  
+
+.small-content h1 {
+  padding-left: 20px;
+  color: #4d94ff;
+  font-size: 25px;
+  margin-top: -20px;
+}
+.small-content img {
+  margin: -30px 0px 20px 20px;
+  width: 50px;
+}
+
+.content {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+ 
+  margin-top: 310px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .navDemo.w3-show {position: relative;}
+  .navDemo.w3-show .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+  }
+  .navDemo.w3-show a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navDemo.w3-show .dropdown {float: none;}
+  .navDemo.w3-show .dropdown-content {position: relative;}
+  .navDemo.w3-show .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
